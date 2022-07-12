@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="imc.css">
+    <title>Form IMC</title>
+</head>
+<body>
+            <div id="topic">
+            <fieldset> 
+                <h1>Calcule seu IMC</h1>
+                <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+                O índice é calculado da seguinte maneira: Divide-se o peso do paciente pela sua altura elevada ao quadrado.
+                Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</P> 
+            </fieldset>
+            </div>
+            <div id="form">
+                <fieldset> 
+                    <form action="imc.php" method="post">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name"><br>
+                            <label for="age">Idade:</label>
+                            <input type="number" id="age" name="age"> <br>
+                            <label for="height"> Altura</label> 
+                            <input type="text" id="height" name="height">  <br>
+                            <label for="weight"> Peso </label>
+                            <input type="text" id="weight" name="weight"> <br>
+                            <button type="submit" name="enviar"> Enviar </button>
+                            <button type="reset" name="limpar"> Limpar </button>
+                        </form>
+                    </fieldset>
+            </div>         
+</body>
+</html>

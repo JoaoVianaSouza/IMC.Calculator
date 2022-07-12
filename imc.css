@@ -1,0 +1,29 @@
+body{
+    background-color: #26979E;
+    color: black;
+    font-family: monospace;
+    font-size: large;
+    text-align: center;
+}
+#form { display: inline-block; width: 500px; height: 400px; padding-top: 190px;
+}
+#topic{ display: inline-block; width: 400px; height: 800px;
+}
+input[type=text], input[type=number], input[type=submit], input[type=reset] {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  fieldset{
+    display: block;
+    border: 2px solid whitesmoke;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 60px;
+  }
+
